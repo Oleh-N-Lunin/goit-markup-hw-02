@@ -11,6 +11,7 @@ body {
 .list {
   list-style: none;
 }
+/* Header */
 
 .logo {
   font-family: Raleway;
@@ -36,4 +37,57 @@ body {
 .navigation-menu-link:hover,
 .navigation-menu-link:focus {
   color: #2196f3;
+}
+
+.adress-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.adress-mail:hover,
+.adress-mail:focus {
+  color: #2196f3;
+}
+
+.adress-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.adress-tel:hover,
+.adress-tel:focus {
+  color: #2196f3;
+}
+
+/* Hero-Section */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /*color: #FFFFFF;*/
+}
+
+.hero-section-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
 }
