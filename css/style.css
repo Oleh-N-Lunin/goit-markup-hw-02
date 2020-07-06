@@ -1,7 +1,16 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --title-color-main: #212121;
+  --title-color-secondary: #ffffff;
+  --text-main-color: #757575;
+  --text-secondary-color: #ffffff;
+  --accent-color: #2196f3;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  background: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .link {
@@ -52,7 +61,13 @@ body {
 .adress-mail:hover,
 .adress-mail:focus,
 .adress-tel:hover,
-.adress-tel:focus {
+.adress-tel:focus,
+.adress-mail-footer:hover,
+.adress-mail-footer:focus,
+.adress-tel-footer:hover,
+.adress-tel-footer:focus,
+.adress-map:hover,
+.adress-map:focus {
   color: #2196f3;
 }
 
@@ -136,6 +151,16 @@ body {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+
+.adress-mail-footer,
+.adress-tel-footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .social-links-text {
