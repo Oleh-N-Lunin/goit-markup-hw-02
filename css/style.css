@@ -13,7 +13,8 @@ body {
 }
 /* Header */
 
-.logo {
+.logo,
+.footer-logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -22,11 +23,14 @@ body {
   color: #000000;
 }
 
-.logo-web {
+.logo-web,
+.footer-logo-web {
   color: #2196f3;
 }
 
-.navigation-menu-link {
+.navigation-menu-link,
+.adress-mail,
+.adress-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -39,29 +43,14 @@ body {
   color: #2196f3;
 }
 
-.adress-mail {
+.adress-mail,
+.adress-tel {
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   color: #757575;
 }
 
 .adress-mail:hover,
-.adress-mail:focus {
-  color: #2196f3;
-}
-
-.adress-tel {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
+.adress-mail:focus,
 .adress-tel:hover,
 .adress-tel:focus {
   color: #2196f3;
@@ -146,24 +135,11 @@ body {
   color: #757575;
 }
 
-.footer-logo {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
-
-.footer-logo-web {
-  color: #2196f3;
-}
-
 .adress-map {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   /*color: #FFFFFF;*/
