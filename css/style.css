@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  background-color: #ffffff;
+  background: #e5e5e5;
 }
 
 .link {
@@ -66,7 +66,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  /*color: #FFFFFF;*/
+  color: #ffffff;
 }
 
 .hero-section-button {
@@ -110,7 +110,7 @@ body {
 
 .our-works-text {
   text-align: center;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 
 .our-team-title,
@@ -135,7 +135,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  /*color: #FFFFFF;*/
+  color: #ffffff;
 }
 
 .social-links-text {
@@ -145,7 +145,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  /*color: #FFFFFF;*/
+  color: #ffffff;
 }
 
 /*Portfolio*/
@@ -189,5 +189,5 @@ body {
   line-height: 1.55;
   letter-spacing: 0.03em;
 
-  /*color: #FFFFFF;*/
+  color: #ffffff;
 }
